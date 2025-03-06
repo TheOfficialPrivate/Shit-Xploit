@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.6
+
+-- Instances:
+
 local ShitXploit = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -58,6 +63,7 @@ Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.369791657, 0, 0.360853404, 0)
 Main.Size = UDim2.new(0, 499, 0, 300)
+Main.Visible = false
 
 Title.Name = "Title"
 Title.Parent = Main
@@ -380,7 +386,7 @@ shitXploit.Image = "rbxassetid://96939134364003"
 
 -- Scripts:
 
-local function ESECL_fake_script() -- Title.LocalScript 
+local function JLOH_fake_script() -- Title.LocalScript 
 	local script = Instance.new('LocalScript', Title)
 
 	local textlabel = script.Parent
@@ -408,8 +414,8 @@ local function ESECL_fake_script() -- Title.LocalScript
 		textlabel.Text = "Shit-Xploit"
 	end
 end
-coroutine.wrap(ESECL_fake_script)()
-local function DOGYKZV_fake_script() -- Spaceship.LocalScript 
+coroutine.wrap(JLOH_fake_script)()
+local function LGXNX_fake_script() -- Spaceship.LocalScript 
 	local script = Instance.new('LocalScript', Spaceship)
 
 	local button = script.Parent
@@ -435,7 +441,7 @@ local function DOGYKZV_fake_script() -- Spaceship.LocalScript
 	local function Space1()
 		if targetPlayer then
 			local char2 = targetPlayer.Character
-			local play = game.Workspace.Map.ClubIsland.Playround
+			local play = workspace.Map.ClubIsland.Plaground
 	
 			local function getPlayer()
 				if char2 then
@@ -482,7 +488,7 @@ local function DOGYKZV_fake_script() -- Spaceship.LocalScript
 	local function Space2()
 		if targetPlayer then
 			local char2 = targetPlayer.Character
-			local play = game.Workspace.Map.ClubIsland.Playround
+			local play = workspace.Map.ClubIsland.Plaground
 	
 			local function getPlayer()
 				if char2 then
@@ -555,8 +561,8 @@ local function DOGYKZV_fake_script() -- Spaceship.LocalScript
 	
 	
 end
-coroutine.wrap(DOGYKZV_fake_script)()
-local function UWLF_fake_script() -- GP.LocalScript 
+coroutine.wrap(LGXNX_fake_script)()
+local function PMRIO_fake_script() -- GP.LocalScript 
 	local script = Instance.new('LocalScript', GP)
 
 	local button = script.Parent
@@ -581,7 +587,7 @@ local function UWLF_fake_script() -- GP.LocalScript
 	local function swing1()
 		if targetPlayer then
 			local char2 = targetPlayer.Character
-			local play = game.Workspace.Map.ClubIsland.Playround
+			local play = workspace.Map.ClubIsland.Plaground
 	
 	
 			play.Equiptment.SwingSet.Swing1.LeftRope.Length = 100000
@@ -600,7 +606,7 @@ local function UWLF_fake_script() -- GP.LocalScript
 	local function swing2()
 		if targetPlayer then
 			local char2 = targetPlayer.Character
-			local play = game.Workspace.Map.ClubIsland.Playround
+			local play = workspace.Map.ClubIsland.Plaground
 	
 	
 			play.Equiptment.SwingSet.Swing2.LeftRope.Length = 100000
@@ -644,8 +650,8 @@ local function UWLF_fake_script() -- GP.LocalScript
 	end)
 	
 end
-coroutine.wrap(UWLF_fake_script)()
-local function ARODGMK_fake_script() -- TP.LocalScript 
+coroutine.wrap(PMRIO_fake_script)()
+local function WFZAVB_fake_script() -- TP.LocalScript 
 	local script = Instance.new('LocalScript', TP)
 
 	local button = script.Parent
@@ -672,8 +678,8 @@ local function ARODGMK_fake_script() -- TP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ARODGMK_fake_script)()
-local function ZRUFVXM_fake_script() -- INFY.LocalScript 
+coroutine.wrap(WFZAVB_fake_script)()
+local function ZOREJ_fake_script() -- INFY.LocalScript 
 	local script = Instance.new('LocalScript', INFY)
 
 	local button = script.Parent
@@ -682,8 +688,8 @@ local function ZRUFVXM_fake_script() -- INFY.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 	end)
 end
-coroutine.wrap(ZRUFVXM_fake_script)()
-local function XZTW_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(ZOREJ_fake_script)()
+local function PUBUO_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	local textBox = script.Parent
@@ -752,8 +758,8 @@ local function XZTW_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XZTW_fake_script)()
-local function NCNEXIN_fake_script() -- Main.DragScript 
+coroutine.wrap(PUBUO_fake_script)()
+local function IZSU_fake_script() -- Main.DragScript 
 	local script = Instance.new('LocalScript', Main)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -796,8 +802,8 @@ local function NCNEXIN_fake_script() -- Main.DragScript
 	end)
 	
 end
-coroutine.wrap(NCNEXIN_fake_script)()
-local function CVFG_fake_script() -- swingSelector.LocalScript 
+coroutine.wrap(IZSU_fake_script)()
+local function VTCAVJ_fake_script() -- swingSelector.LocalScript 
 	local script = Instance.new('LocalScript', swingSelector)
 
 	local swing1 = script.Parent.Swing1
@@ -824,13 +830,13 @@ local function CVFG_fake_script() -- swingSelector.LocalScript
 	
 	
 end
-coroutine.wrap(CVFG_fake_script)()
-local function PYMFTPV_fake_script() -- GOTO.LocalScript 
+coroutine.wrap(VTCAVJ_fake_script)()
+local function OJXSJ_fake_script() -- GOTO.LocalScript 
 	local script = Instance.new('LocalScript', GOTO)
 
 	local button = script.Parent
 	local char = game.Players.LocalPlayer.Character
-	local play = game.Workspace.Map.ClubIsland.Playround
+	local play = workspace.Map.ClubIsland.Plaground
 	
 	button.MouseButton1Click:Connect(function()
 		if play then
@@ -838,8 +844,8 @@ local function PYMFTPV_fake_script() -- GOTO.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PYMFTPV_fake_script)()
-local function ZVCGX_fake_script() -- BACK.LocalScript 
+coroutine.wrap(OJXSJ_fake_script)()
+local function XTXIZYE_fake_script() -- BACK.LocalScript 
 	local script = Instance.new('LocalScript', BACK)
 
 	local button = script.Parent
@@ -849,13 +855,13 @@ local function ZVCGX_fake_script() -- BACK.LocalScript
 		char.HumanoidRootPart.CFrame = CFrame.new(166, 3, 369)
 	end)
 end
-coroutine.wrap(ZVCGX_fake_script)()
-local function PVYCOM_fake_script() -- reset.LocalScript 
+coroutine.wrap(XTXIZYE_fake_script)()
+local function TGYIWQ_fake_script() -- reset.LocalScript 
 	local script = Instance.new('LocalScript', reset)
 
 	local button = script.Parent
 	local char = game.Players.LocalPlayer.Character
-	local play = game.Workspace.Map.ClubIsland.Playround
+	local play = workspace.Map.ClubIsland.Plaground
 	
 	button.MouseButton1Click:Connect(function()
 		if play then
@@ -870,80 +876,38 @@ local function PVYCOM_fake_script() -- reset.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KYHFH_fake_script)()
-local function ZOXB_fake_script() -- ShitXploit.LocalScript 
-	local script = Instance.new('LocalScript', ShitXploit)
+coroutine.wrap(TGYIWQ_fake_script)()
+local function MAIF_fake_script() -- shitXploit.fade 
+	local script = Instance.new('LocalScript', shitXploit)
 
-	local credits = [[
-	  ................................................................................................  
-	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%#*****+==========*****#%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@%*+--.....                                      ......:-+*%%@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@%*=-...                                                            ....:=+%@@@@@@@@@:  
-	  -@@@@@@@*:.                                                                           .:=%@@@@@:  
-	  -@@@*-...                                                                                ..:+%@:  
-	  -@#.                                                                                         .#:  
-	  -%:.                                                                                          ..  
-	  ::.                                                                                               
-	  ..                                                                                                
-	                                                                                                    
-	                                                                                                    
-	                                                                                                    
-	                                                                                                    
-	                                                                                .........           
-	             .......:::::::::.....                                   .....:-=+*#%%@@@@@#=..         
-	         ...:-*#%%@@@@@@@@@@@@@%*=:....    .....                ....:+*%@@@@@@@@@@@@@@@@@%=..       
-	      ...-*@@@@@%%##*****###%@@@@@@@#*=----=##:.          .....:=*%@@@@@@@%#**+++++++#@@@@@#:.      
-	     .:*%@#+-:.................:=*%@@@@@@@@@%-.          ..+@%@@@@@%*=-:...............:=#@@#:.     
-	     ......                      ...:-==++=-..           ..*%%#*=:...                    ..=##:..   
-	                                                          .......                          ......   
-	                                                                                                    
-	                                                                                                    
-	              ...............::::::::....                 ...........................               
-	            ..:+*##*+==--------------=*+.                ..=#+===============+**#*+=:...            
-	           .-*+:.........................                ..:..  ...................-+*=..           
-	         ..:--==++***####**********++++=-..             ..:-==++++************+++==--:::...         
-	         :==--+=::.:*@@@@@@@@@#=%*:..:=-=*:.           .:**-=::.:=@@@@@@@@@#*@%-:::=+==++:.         
-	             ..:=+=:-%@@@@@@@@@%#-..-+-.....           .....:+-..:#@@@@@@@@@%@+:-=+:..              
-	                ..:=+#%@@@@@@@@%*+*+-..                     ..-**++%@@@@@@@@@#*=:..                 
-	                   .......:::-=+**+:.                       ..-***=-:::::::.....                    
-	                       ..+###*=-:...                           ...=*%%#=:.                          
-	                       ......                                     ........                          
-	                                                                                                    
-	                                                                                                    
-	                                                                                                    
-	            .....                                                                                   
-	  .        .-#+..                                                                                   
-	  .       ..*+-#*-..                                                                                
-	  .       .:#-.+@@@#-....                                                                           
-	  .       .:*-..*@@@@@%*=:....                                                                      
-	  .       ..+-..:#@*:.-*@@%#*=:...                                            .....::..             
-	  .        .... .:##:...:=::-+*#%#*+=-::...............................::--=+*##%@@*-.              
-	  .              .:#*:...........::-=*#%%%%######***+++******#####%%%%%%#*#%*--=#@*..               
-	  .    ....      ..:**:...         .........::::------------::::::.............:*#:.                
-	  .   .:*-.        ..+#-..                    .................          .....:*#-.                 
-	  .   ..#*.         ..=#+-...:....                                    .......-##:..    ....         
-	  .   ..:#+.         ..:#@@%%*#*-:.........                      .....:+####%@*..     .-#-.         
-	  ..    .:*=..         ..+*-...:-----:..-=+++*********************#####=..-#%=..    ..+%*..         
-	  :.     ....           ..:+=.........................:..................=%+:..    .:*@+..          
-	  -*..                    ..-+-......                               ...:**:..    ..:#%-..       ..  
-	  -@+.                      ..-**=:...                           ....-*#-..      .:*=..        .=:  
-	  -@@+..                       ..:=*#*+-:......................:-=*##+-..         ...         .=@:  
-	  -@@@*..                         ....:-=======------=====+++==--:.....                      .+@@:  
-	  -@@@@@-..                              ......................                            .-#@@@:  
-	  -@@@@@@@+..                                                                            .=%@@@@@:  
-	  -@@@@@@@@@%-...                                                                    ..:#@@@@@@@@:  
-	  -@@@@@@@@@@@@#-..                                                                .-*@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@%-...                                                       ...-#@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@*-..                                                 ..:+%@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@@@@@+:..                                          .:+%@@@@@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@@@@@@@@%*=:...                              ..:=*%@@@@@@@@@@@@@@@@@@@@@@@@@:  
-	  -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-:...                 ...:-*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:  
-	  ..............................................      ............................................ 
-	]]
+	local image = script.Parent
+	local gui = image.Parent.Main
 	
-	warn(credits)
-	warn("Welcome to Shit-Xploit!, Credits to: Private3110")
+	gui.Position = UDim2.new(0.5, -gui.Size.X.Offset / 2, 0.5, -gui.Size.Y.Offset / 2)
+	
+	local function fadeIn()
+		image.ImageTransparency = 1
+		
+		wait(2)
+	
+		for i = 1, 0, -0.01 do
+			image.ImageTransparency = i
+			wait(0.001)  
+		end
+	end
+	
+	local function Click()
+		if gui.Visible then
+			gui.Visible = false
+		else
+			gui.Position = UDim2.new(0.5, -gui.Size.X.Offset / 2, 0.5, -gui.Size.Y.Offset / 2)
+			gui.Visible = true
+		end
+	end
+	
+	fadeIn()
+	
+	image.MouseButton1Click:Connect(Click)
+	
 end
-coroutine.wrap(ZOXB_fake_script)()
+coroutine.wrap(MAIF_fake_script)()
